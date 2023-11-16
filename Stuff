@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page title -->
+    <title>LiterACE Hub Unblocked Games</title>
+    <!-- CSS styles for styling the page -->
+    <style>
+        /* Resetting default styles and setting a background color */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Styling the header with a background color, text color, and padding */
+        header {
+            background-color: #282c34;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+
+        /* Setting margin for h1 to avoid default margin */
+        h1 {
+            margin: 0;
+        }
+
+        /* Styling for the container of game buttons */
+        #buttonContainer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        /* Styling for individual game buttons */
+        .game-button {
+            background-color: #fff;
+            color: #333;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        /* Styling for hover effect on game buttons */
+        .game-button:hover {
+            background-color: #cfcfcf;
+            color: #000000;
+        }
+
+        /* Styling for the container of the game iframe */
+        #gameContainer {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        /* Styling for the game iframe */
+        #gameContainer iframe {
+            width: 100%;
+            height: 700px;
+            border: none; /* Remove iframe border */
+        }
+
+        /* Styling for the clear game button */
+        button.clear-button {
+            background-color: #ff0000;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        /* Styling for hover effect on the clear game button */
+        button.clear-button:hover {
+            background-color: #cc0000;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section with the title -->
+    <header>
+        <h1>LiterACE Hub HTML Version</h1>
+    </header>
+
+    <!-- Container for game buttons -->
+    <div id="buttonContainer"></div>
+
+    <!-- Container for the game iframe -->
+    <div id="gameContainer"></div>
+
+    <!-- Clear Game button -->
+    <button onclick="removeGame()" class="clear-button">Clear Game</button>
+
+    <!-- JavaScript section for creating game buttons and handling iframe removal -->
+    <script>
+        // Function to create a new button with a specified name and link
+        function createGameButton(name, link) {
+            var button = document.createElement("button");
+            button.textContent = name;
+            button.classList.add("game-button");
+
+            button.addEventListener("click", function() {
+                var iframe = document.createElement("iframe");
+                iframe.src = link;
+                iframe.width = "100%";
+                iframe.height = 700;
+                document.getElementById("gameContainer").innerHTML = '';
+                document.getElementById("gameContainer").appendChild(iframe);
+            });
+
+            document.getElementById("buttonContainer").appendChild(button);
+        }
+
+        // Creating game buttons with name and link
+        createGameButton("Game Files", "https://gfiles.oasis0test.repl.co/");
+        createGameButton("Happy Wheels", "https://ewijfwiohuieywheelsrihdfdn--jackhottle1.repl.co/");
+      createGameButton("2048", "https://ovolve.github.io/2048-AI/");
+        createGameButton("Elastic Man", "https://elastic.clambam10.repl.co/");
+      createGameButton("Subway Surfers", "https://subwaysurf.cyquna.repl.co/");
+      createGameButton("Getting Over It (Scratch)", "https://goiscratch.cyquna.repl.co/");
+      createGameButton("Geometry Dash", "https://topvaz.github.io/g8/geometry-dash/");
+      createGameButton("Tiny Fishing", "https://topvaz.github.io/g/tiny-fishing/");
+      createGameButton("Deepest Sword", "https://wfhuidncjsdjn2138972--jackhottle1.repl.co/");
+      createGameButton("Slope", "https://topvaz.github.io/g/slope/");
+      createGameButton("Slide in the woods", "https://sitw.cyquna.repl.co/");
+      createGameButton("Moto X3M", "https://hfjerwgsfjkehmwsyd8fpihl--jackhottle1.repl.co/");
+      createGameButton("Sandboxels", "https://r74ncom.github.io/sandboxels-fork1/");
+      createGameButton("Fortz", "https://topvazstore.github.io/g4/fortz/");
+      createGameButton("Super Mario 64", "https://sdnfjiwefd--jackhottle1.repl.co/");
+      createGameButton("A Dance With Fire and Ice", "https://topvazstore.github.io/g8/a-dance-of-fire-and-ice/");
+      createGameButton("Temple Run 2", "https://topvazstore.github.io/g8/temple-run-2/");
+      createGameButton("Stack Ball", "https://topvazstore.github.io/g9/stack-ball/");
+      createGameButton("Crossy Road", "https://topvazstore.github.io/g/crossy-road/");
+      createGameButton("Super Mario Brothers", "https://topvazstore.github.io/g9/super-mario-bros/");
+      createGameButton("Cookie Clicker", "https://topvazstore.github.io/g/cookie-clicker/");
+      createGameButton("Drive Mad", "https://topvazstore.github.io/g77/drive-mad/");
+      createGameButton("We Become What We Behold", "https://topvazstore.github.io/g3/we-become-what-we-behold/");
+      createGameButton("Paper.io 2", "https://topvazstore.github.io/g9/paper-io-2/");
+      createGameButton("Infinity Loop", "https://topvazstore.github.io/g5/infinity-loop/");
+      createGameButton("Stickman Hook", "https://topvazstore.github.io/g/stickman-hook/");
+      createGameButton("The Impossible Quiz", "https://topvazstore.github.io/g8/the-impossible-quiz/");
+      createGameButton("Rocket Soccer Derby", "https://topvaz.github.io/g6/rocket-soccer-derby/");
+      createGameButton("Monkey Mart", "https://topvaz.github.io/g8/monkey-mart/");
+      createGameButton("Tomb of the mask", "https://topvaz.github.io/g8/tomb-of-the-mask/");
+      createGameButton("Wordle unlimited", "https://topvaz.github.io/g9/wordle-unlimited/");
+      createGameButton("Bitlife", "https://topvaz.github.io/g/bitlife/");
+      createGameButton("Snow Rider 3D", "https://bonbang.github.io/store77/snow-rider-3d/");
+
+        // Add other game buttons...
+
+        // Function to remove the iframe from the screen
+        function removeGame() {
+            document.getElementById("gameContainer").innerHTML = '';
+        }
+    </script>
+</body>
+</html>
+
